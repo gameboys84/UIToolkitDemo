@@ -47,8 +47,8 @@ public class UICubeRotate : MonoBehaviour
         uiDocument.rootVisualElement.Q<Button>("Stop").RegisterCallback<ClickEvent>(OnClickStop);
         uiDocument.rootVisualElement.Q<Button>("Reset").RegisterCallback<ClickEvent>(OnClickReset);
         
-        uiDocument.rootVisualElement.Q<Button>("Scale").RegisterCallback<ClickEvent>(OnClickScale);
-        uiDocument.rootVisualElement.Q<Button>("Color").RegisterCallback<ClickEvent>(OnClickColor);
+        uiDocument.rootVisualElement.Q<Toggle>("Scale").RegisterCallback<ClickEvent>(OnClickScale);
+        uiDocument.rootVisualElement.Q<Toggle>("Color").RegisterCallback<ClickEvent>(OnClickColor);
     }
 
     private void OnClickReset(ClickEvent evt)
