@@ -1,0 +1,240 @@
+.background {
+    flex-grow: 1;
+    background-color: var(--color-CUSTOM-app-background);
+}
+
+.header-text {
+    font-size: 127px;
+    margin-top: 24px;
+    -unity-text-align: middle-center;
+}
+
+.status-bar {
+    height: 200px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.status-bar__icons {
+    width: 30px;
+    height: 30px;
+    border-radius: 70px;
+    margin-left: 15px;
+    align-self: center;
+}
+
+.status-bar__icons-highlighted {
+}
+
+.text {
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    font-size: 34px;
+    color: var(--color-CUSTOM-text);
+}
+
+.tag {
+    background-color: rgb(253, 151, 129);
+    border-radius: 22px;
+}
+
+.tag__text {
+    color: rgb(7, 6, 24);
+    margin: 4px 12px;
+}
+
+.article-summary-text {
+    font-size: 28px;
+}
+
+.button {
+    -unity-font-style: bold;
+    font-size: 30px;
+    border-radius: 40px;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    -unity-text-align: middle-center;
+}
+
+.button-margins {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tile {
+    align-items: center;
+    max-width: 350px;
+    flex-grow: 1;
+}
+
+.tile__text {
+    -unity-text-align: middle-center;
+    font-size: 32px;
+    -unity-font-style: bold;
+    width: 80%;
+}
+
+.tile__image {
+    border-radius: 65px;
+    -unity-background-scale-mode: scale-and-crop;
+    -unity-slice-scale: 0.2px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 250px;
+    height: 250px;
+}
+
+.tile-scroll-view {
+    min-width: 110%;
+    flex-direction: row;
+    margin-bottom: 60px;
+    justify-content: space-between;
+}
+
+.tile-container {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    background-color: rgba(49, 49, 78, 0.68);
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.button__text {
+}
+
+.unity-scroll-view__content-container--horizontal {
+    transition-duration: 0.2s;
+    transition-property: translate;
+    transition-timing-function: ease-out-circ;
+    flex-grow: 1;
+    min-height: 100%;
+}
+
+.unity-scroller--horizontal > .unity-scroller__low-button {
+    display: none;
+}
+
+.unity-scroller--horizontal > .unity-scroller__high-button {
+    display: none;
+}
+
+.unity-scroller--horizontal .unity-base-slider__tracker {
+    border-radius: 15px;
+}
+
+.unity-scroller--horizontal .unity-base-slider__dragger {
+    border-radius: 8px;
+    margin-top: 0;
+    margin-right: 4px;
+}
+
+.unity-scroll-view__horizontal-scroller {
+    align-self: center;
+    width: 372px;
+}
+
+.menu {
+    height: 100%;
+    width: 60%;
+    padding: 20px 30px;
+    max-height: 650px;
+    border-radius: 40px;
+    flex-grow: 1;
+}
+
+.menu-container {
+    transition-duration: 0.15s;
+    transition-timing-function: ease-out;
+}
+
+.menu-container-hidden {
+    opacity: 0;
+    translate: 100% 0;
+    transition-property: translate, opacity;
+    transition-duration: 0.35s, 0.15s;
+    transition-timing-function: ease-out, ease;
+}
+
+.horizontal-scroll-elements {
+    min-width: 100%;
+    min-height: 877px;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.article {
+    width: 48%;
+}
+
+.article-container {
+    flex-direction: row;
+    min-height: 500px;
+    max-height: 800px;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.popup-container {
+    position: absolute;
+    align-items: center;
+    align-self: center;
+    top: 30%;
+    width: 50%;
+    height: 55%;
+    border-top-width: 6px;
+    border-right-width: 6px;
+    border-bottom-width: 6px;
+    border-left-width: 6px;
+    border-radius: 40px;
+    border-left-color: rgba(187, 146, 255, 0);
+    border-right-color: rgba(187, 146, 255, 0);
+    border-top-color: rgba(187, 146, 255, 0);
+    border-bottom-color: rgba(187, 146, 255, 0);
+    background-color: rgba(189, 132, 255, 0.66);
+    transition-duration: 0.15s;
+    flex-grow: 1;
+}
+
+.popup-container-hidden {
+    position: absolute;
+    align-items: center;
+    align-self: center;
+    top: 30%;
+    width: 50%;
+    height: 55%;
+    border-top-width: 6px;
+    border-right-width: 6px;
+    border-bottom-width: 6px;
+    border-left-width: 6px;
+    border-radius: 40px;
+    border-left-color: rgba(187, 146, 255, 0);
+    border-right-color: rgba(187, 146, 255, 0);
+    border-top-color: rgba(187, 146, 255, 0);
+    border-bottom-color: rgba(187, 146, 255, 0);
+    background-color: rgba(189, 132, 255, 0.66);
+    translate: -200% 0;
+    flex-grow: 1;
+}
+
+.popup-background {
+    flex-grow: 1;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgba(59, 59, 59, 0.61);
+    transition-duration: 0.15s;
+}
+
+.popup-background-hidden {
+    flex-grow: 1;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgba(59, 59, 59, 0.61);
+    transition-duration: 0.15s;
+    display: none;
+}

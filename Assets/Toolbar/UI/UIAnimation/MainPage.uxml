@@ -1,0 +1,40 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Tile" src="project://database/Assets/Toolbar/UI/UIAnimation/Tile.uxml?fileID=9197481963319205126&amp;guid=443db38b7d61bba46a11d4991d5f109a&amp;type=3#Tile" />
+    <ui:Template name="Article" src="project://database/Assets/Toolbar/UI/UIAnimation/Article.uxml?fileID=9197481963319205126&amp;guid=061016b74ad697643956adcb83a3f303&amp;type=3#Article" />
+    <Style src="project://database/Assets/Toolbar/UI/UIAnimation/UIAnimation.uss?fileID=7433441132597879392&amp;guid=0ecc8ec288588cd4299038970cd7165d&amp;type=3#UIAnimation" />
+    <ui:VisualElement name="BaseContainer" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="PLACEHOLDER" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Header" class="text header-text" />
+        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TagLine" class="text" />
+        <ui:ScrollView name="VerticalScrollView" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" mouse-wheel-scroll-size="390">
+            <ui:VisualElement name="MainContent" style="flex-grow: 1; margin-left: 30px; margin-right: 30px;">
+                <ui:ScrollView name="TilesHorizontalScrollViewTop" horizontal-scroller-visibility="AlwaysVisible" vertical-scroller-visibility="Hidden" mouse-wheel-scroll-size="390" elasticity="0.025" touch-scroll-type="Elastic" class="tile-container" style="flex-grow: 1;">
+                    <ui:VisualElement name="tilesTopContainer" class="tile-scroll-view" style="flex-grow: 1;">
+                        <ui:Instance template="Tile" name="tile" />
+                        <ui:Instance template="Tile" name="tile" />
+                        <ui:Instance template="Tile" name="tile" />
+                        <ui:Instance template="Tile" name="tile" />
+                        <ui:Instance template="Tile" name="tile" />
+                        <ui:Instance template="Tile" name="tile" />
+                        <ui:Instance template="Tile" name="tile" />
+                        <ui:Instance template="Tile" name="tile" />
+                    </ui:VisualElement>
+                </ui:ScrollView>
+                <ui:VisualElement name="Articles" class="article-container" style="flex-grow: 1;">
+                    <ui:Instance template="Article" name="Article-0" style="width: 50%;" />
+                    <ui:Instance template="Article" name="Article-1" style="width: 50%;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Articles" class="article-container" style="flex-grow: 1;">
+                    <ui:Instance template="Article" name="Article-2" style="width: 50%;" />
+                    <ui:Instance template="Article" name="Article-3" style="width: 50%;" />
+                </ui:VisualElement>
+                <ui:ScrollView name="TilesHorizontalScrollViewMiddle" horizontal-scroller-visibility="AlwaysVisible" vertical-scroller-visibility="Hidden" mouse-wheel-scroll-size="390" elasticity="0.025" touch-scroll-type="Elastic" class="tile-container" />
+                <ui:VisualElement name="Articles" class="article-container" style="flex-grow: 1;">
+                    <ui:Instance template="Article" name="Article-4" style="width: 50%;" />
+                    <ui:Instance template="Article" name="Article-5" style="width: 50%;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:ScrollView>
+        <ui:VisualElement name="PopupBackground" class="popup-background popup-background-hidden" style="flex-grow: 1;" />
+        <ui:VisualElement name="PopupContainer" class="popup-container popup-container-hidden" style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

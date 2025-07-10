@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Toolbar/UI/UIAnimation/UIAnimation.uss?fileID=7433441132597879392&amp;guid=0ecc8ec288588cd4299038970cd7165d&amp;type=3#UIAnimation" />
+    <ui:VisualElement name="tile" class="tile" style="flex-grow: 1;">
+        <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TileImage" class="tile__image" />
+        <ui:Label tabindex="-1" text="Title" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TileTitle" class="text tile__text" />
+    </ui:VisualElement>
+</ui:UXML>

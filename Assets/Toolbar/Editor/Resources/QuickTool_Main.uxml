@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="ButtonTemplate" src="project://database/Assets/Toolbar/Editor/Resources/ButtonTemplate.uxml?fileID=9197481963319205126&amp;guid=7a61ce45836b80c46a55a5a8df69d44f&amp;type=3#ButtonTemplate" />
+    <ui:VisualElement class="buttons-container" >
+        <ui:Instance template="ButtonTemplate" name="Cube" />
+        <ui:Instance template="ButtonTemplate" name="Sphere" />
+        <ui:Instance template="ButtonTemplate" name="Capsule" />
+        <ui:Instance template="ButtonTemplate" name="Cylinder" />
+        <ui:Instance template="ButtonTemplate" name="Plane" />
+    </ui:VisualElement>
+</ui:UXML>

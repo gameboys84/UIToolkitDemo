@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Toolbar/UI/UIAnimation/UIAnimation.uss?fileID=7433441132597879392&amp;guid=0ecc8ec288588cd4299038970cd7165d&amp;type=3#UIAnimation" />
+    <ui:VisualElement name="ArticleContainer" style="flex-grow: 1; padding-top: 26px; padding-right: 26px; padding-bottom: 26px; padding-left: 26px;">
+        <ui:Label tabindex="-1" text="Long Article Title" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ArticleTitle" class="text" style="font-size: 58px; width: 100%;" />
+        <ui:VisualElement name="Tag" class="tag" style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="Tag" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TagText" class="tag__text text" />
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" text="ArticleSummary" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ArticleSummary" class="text thumnail-text article-summary-text" />
+        <ui:Button text="VIEW" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" class="button" />
+    </ui:VisualElement>
+</ui:UXML>

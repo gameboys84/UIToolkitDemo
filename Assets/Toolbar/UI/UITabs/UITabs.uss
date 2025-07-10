@@ -1,0 +1,49 @@
+.tabs-label {
+    font-size: 30px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255);
+    -unity-text-align: upper-center;
+}
+
+.tabs-label:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.tabs-label-selected {
+    background-color: rgb(153, 153, 153);
+    border-left-color: rgb(255, 255, 0);
+    border-right-color: rgb(255, 255, 0);
+    border-top-color: rgb(255, 255, 0);
+    border-bottom-color: rgb(255, 255, 0);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    width: 120px;
+    font-size: 36px;
+    -unity-font-style: bold;
+}
+
+.tabs-desc-text {
+    font-size: 30px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    display: none;
+}
+
+.tabs-desc-selected {
+    display: flex;
+}

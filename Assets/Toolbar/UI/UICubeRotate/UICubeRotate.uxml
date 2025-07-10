@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Toolbar/UI/UICubeRotate/UICubeRotate.uss?fileID=7433441132597879392&amp;guid=992300219d015ed4cb225a3b926b74ce&amp;type=3#UICubeRotate" />
+    <ui:Foldout text="控制" name="Foldout" style="align-items: flex-start; font-size: 30px;">
+        <ui:VisualElement name="Function" style="flex-grow: initial; flex-direction: row; align-items: center; align-self: center;">
+            <ui:Button text="Rotate" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Rotate" class="button" />
+            <ui:Button text="Offset" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Offset" class="button" />
+            <ui:Button text="Stop" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Stop" class="button" />
+            <ui:Button text="Reset" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Reset" class="button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Feature" style="flex-grow: 1; flex-direction: row; justify-content: flex-start;">
+            <ui:Toggle label="Scale" name="Scale" class="unity-toggle-chkbox" style="padding-right: 0;" />
+            <ui:Toggle label="Color" name="Color" class="unity-toggle-chkbox" />
+        </ui:VisualElement>
+    </ui:Foldout>
+</ui:UXML>

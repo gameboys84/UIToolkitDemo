@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Toolbar/UI/UIToolbar/UIToolbar.uss?fileID=7433441132597879392&amp;guid=f86cf0f12291c4340aad3ab9cab51746&amp;type=3#UIToolbar" />
+    <ui:ScrollView>
+        <ui:VisualElement name="Popdown" class="textCaption" style="flex-grow: 0; flex-direction: row;">
+            <ui:DropdownField label="Dropdown" />
+            <ui:EnumField label="Enum" type="UnityEngine.TextAlignment, UnityEngine.TextRenderingModule" value="Center" />
+            <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" />
+        </ui:VisualElement>
+        <ui:VisualElement name="RadioGroup" class="textCaption" style="flex-grow: 0;">
+            <ui:RadioButtonGroup label="Radio Button Group" value="-1" name="RadioButtonGroup">
+                <ui:RadioButton label="Radio Button" class="chkButtonAlign" />
+                <ui:RadioButton label="Radio Button" class="chkButtonAlign" />
+                <ui:RadioButton label="Radio Button" class="chkButtonAlign" />
+            </ui:RadioButtonGroup>
+        </ui:VisualElement>
+        <ui:VisualElement name="ToggleGroup" class="textCaption" style="flex-grow: 0;">
+            <ui:Toggle label="Toggle" />
+            <ui:Toggle label="Toggle" />
+            <ui:Toggle label="Toggle" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Values" class="textCaption" style="flex-grow: 1;">
+            <ui:IntegerField label="Integer Field" value="42" />
+            <ui:FloatField label="Float Field" value="42.2" />
+            <ui:LongField label="Long Field" value="42" />
+            <ui:Hash128Field label="Hash128 Field" value="885eea9fcca73bdadde4ecd6a3af1312" />
+            <ui:Vector4Field label="Vec4 Field" />
+            <ui:RectIntField label="RectInt" />
+            <ui:BoundsIntField label="BoundsInt" />
+        </ui:VisualElement>
+    </ui:ScrollView>
+</ui:UXML>

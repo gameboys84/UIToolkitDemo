@@ -1,0 +1,15 @@
+VisualElement {
+}
+
+.unity-radio-button-group {
+    flex-direction: column;
+}
+
+.textCaption {
+    font-size: 30px;
+    -unity-text-outline-color: rgb(255, 255, 255);
+    -unity-text-outline-width: 0;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0);
+    -unity-font-style: bold;
+}

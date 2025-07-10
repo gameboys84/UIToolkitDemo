@@ -1,0 +1,4 @@
+:root {
+    --color-CUSTOM-app-background: rgb(18, 18, 24);
+    --color-CUSTOM-text: rgb(221, 220, 239);
+}

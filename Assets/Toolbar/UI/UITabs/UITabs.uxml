@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Toolbar/UI/UITabs/UITabs.uss?fileID=7433441132597879392&amp;guid=60a1f5832bf459944bd80597e0c504cd&amp;type=3#UITabs" />
+    <ui:VisualElement name="TabCtrl" style="flex-grow: 0; flex-direction: row; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;">
+        <ui:Label text="Tab1" name="Tab1" class="tabs-label tabs-label-selectecd" />
+        <ui:Label text="Tab2" name="Tab2" class="tabs-label tabs-lable-selectecd tabs-label-selected" />
+        <ui:Label text="Tab3" name="Tab3" class="tabs-label" />
+    </ui:VisualElement>
+    <ui:VisualElement name="TabsDesc" style="flex-grow: 1; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;">
+        <ui:Label tabindex="-1" text="asdd&#10;asd&#10;fasd&#10;f&#10;&#10;df&#10;df&#10;TAB1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Desc1" class="tabs-desc tabs-desc-text tabs-desc-selected" style="flex-grow: 0;" />
+        <ui:Label tabindex="-1" text="asddddddddddddddddddddddd2323&#10;asd&#10;fasd&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Desc2" class="tabs-desc tabs-desc-text tabs-desc-selected" style="flex-grow: 0;" />
+        <ui:Label tabindex="-1" text="asddddddddddddddddddddddddddddddddfasdfasdf&#10;asd&#10;TAB3" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Desc3" class="tabs-desc tabs-desc-text tabs-desc-selected" style="flex-grow: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

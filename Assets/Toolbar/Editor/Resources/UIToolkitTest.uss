@@ -1,0 +1,5 @@
+.labelText {
+    color: rgb(94, 0, 255);
+    -unity-font: url("project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#LegacyRuntime");
+    font-size: 35px;
+}

@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Toolbar/UI/UIAnimation/UIAnimation.uss?fileID=7433441132597879392&amp;guid=0ecc8ec288588cd4299038970cd7165d&amp;type=3#UIAnimation" />
+    <ui:VisualElement style="flex-grow: 1; align-items: flex-end; margin-top: 26px; margin-right: 26px; margin-bottom: 26px; margin-left: 26px;">
+        <ui:VisualElement name="MenuBackground" class="menu" style="flex-grow: 1;">
+            <ui:Button text="App Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AppSettings" class="button button-margins button__text" />
+            <ui:Button text="Account" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Account" class="button button-margins button__text" />
+            <ui:Button text="Toggle App Theme" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ToggleAppTheme" class="button button-margins button__text" />
+            <ui:Button text="Logout" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Logout" class="button button-margins button__text" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
