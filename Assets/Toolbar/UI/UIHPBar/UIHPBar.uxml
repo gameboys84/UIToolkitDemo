@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Toolbar/UI/UIHPBar/UIHPBar.uss?fileID=7433441132597879392&amp;guid=34e86a63422657f459bb1355b758f2dd&amp;type=3#UIHPBar" />
+    <ui:VisualElement name="HealthBarBackground" style="width: 500px; height: 150px; background-image: resource(&apos;Sprites/HealthbarBackground&apos;);">
+        <ui:VisualElement name="HealthBarMask" style="width: 100%; position: absolute; height: 100%; overflow: hidden; transition-property: width; transition-timing-function: ease-in-sine; transition-duration: 0.15s;">
+            <ui:VisualElement name="HealthBarFill" style="background-image: resource(&apos;Sprites/HealthBarFill&apos;); position: absolute; width: 500px; height: 100%;" />
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HealthLabel" style="position: absolute; width: 100%; height: 100%; font-size: 28px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 50px; -unity-text-align: middle-left;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="TestPanel" style="position: absolute; left: 520px; height: 150px; justify-content: space-around;">
+        <ui:Button text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddHp" class="button" />
+        <ui:Button text="-" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SubHp" class="button" />
+    </ui:VisualElement>
+</ui:UXML>

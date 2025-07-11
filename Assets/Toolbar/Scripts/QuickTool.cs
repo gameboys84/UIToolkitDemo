@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 public class QuickTool : EditorWindow
 {
     // CTRL + SHIFT + T (or Cmd + Shift + T on a Mac).
-    [MenuItem("Demo/QuickTool/Open _%#T")]
+    [MenuItem("Demo/QuickTool/MeshCreator _%#T")]
     public static void ShowWindow()
     {
         QuickTool wnd = GetWindow<QuickTool>();
