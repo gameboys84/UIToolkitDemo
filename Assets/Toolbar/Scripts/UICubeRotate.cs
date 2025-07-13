@@ -20,7 +20,7 @@ public class UICubeRotate : MonoBehaviour
 
         if (!target)
         {
-            var meshRenderer = GameObject.FindObjectOfType<MeshRenderer>();
+            var meshRenderer = Object.FindAnyObjectByType<MeshRenderer>();
             if (meshRenderer!= null)
             {
                 target = meshRenderer.transform;

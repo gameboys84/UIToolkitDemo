@@ -1,0 +1,16 @@
+.five-stars {
+    background-size: 50% 100%;
+}
+
+.on-stars {
+    background-image: url("project://database/Assets/CustomCtrls/Sprites/star.png?fileID=2800000&guid=ab6f7fb769d933e46937050db5604f15&type=3#star");
+    background-position-x: left 0;
+    background-repeat: repeat no-repeat;
+}
+
+.off-stars {
+    background-image: url("project://database/Assets/CustomCtrls/Sprites/star.png?fileID=2800000&guid=ab6f7fb769d933e46937050db5604f15&type=3#star");
+    background-position-x: right 0;
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    background-repeat: repeat no-repeat;
+}

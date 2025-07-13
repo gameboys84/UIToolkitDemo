@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d2388e16235ab4c9edb4951ad48956, type: 3}
+  m_Name: InputSprites
+  m_EditorClassIdentifier: 
+  Mappings:
+  - reference: {fileID: 1781555164194001046, guid: 544c3b625b5d8054cbb136bbfd1b99a2, type: 3}
+    sprite: {fileID: 6195944701763404407, guid: 61bb34fcad88e6943aceed2d1b861b70, type: 3}
+  - reference: {fileID: 1120369429361536294, guid: 544c3b625b5d8054cbb136bbfd1b99a2, type: 3}
+    sprite: {fileID: -8191739510646017925, guid: 61bb34fcad88e6943aceed2d1b861b70, type: 3}
+  - reference: {fileID: -2099379676528639254, guid: 544c3b625b5d8054cbb136bbfd1b99a2, type: 3}
+    sprite: {fileID: 3713549098536957005, guid: 61bb34fcad88e6943aceed2d1b861b70, type: 3}
+  - reference: {fileID: -5630151704836100654, guid: 544c3b625b5d8054cbb136bbfd1b99a2, type: 3}
+    sprite: {fileID: -2381909340392218158, guid: 61bb34fcad88e6943aceed2d1b861b70, type: 3}

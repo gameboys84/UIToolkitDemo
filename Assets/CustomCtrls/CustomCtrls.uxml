@@ -1,0 +1,5 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <CustomVisualElement focusable="true" name="CustomVE" />
+    <FiveStartVE half-stars="11" max-stars="6" style="height: 90px; flex-direction: row; width: 600px;" />
+    <GamepadButtonVE _action-reference="project://database/Assets/InputSystem_Actions.inputactions?fileID=1781555164194001046&amp;guid=544c3b625b5d8054cbb136bbfd1b99a2&amp;type=3#Player/Interact" />
+</engine:UXML>
