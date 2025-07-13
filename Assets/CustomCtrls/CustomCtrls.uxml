@@ -1,5 +1,19 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <CustomVisualElement focusable="true" name="CustomVE" />
-    <FiveStartVE half-stars="11" max-stars="6" style="height: 90px; flex-direction: row; width: 600px;" />
-    <GamepadButtonVE _action-reference="project://database/Assets/InputSystem_Actions.inputactions?fileID=1781555164194001046&amp;guid=544c3b625b5d8054cbb136bbfd1b99a2&amp;type=3#Player/Interact" />
+    <CustomVisualElement focusable="true" name="CustomVE">
+        <Bindings>
+            <engine:DataBinding property="Text" data-source-path="Description" data-source="project://database/Assets/CustomCtrls/Resources/DataBinding.asset?fileID=11400000&amp;guid=7c96640dc302bff40935308612ad05f1&amp;type=2#DataBinding" binding-mode="ToTarget" />
+        </Bindings>
+    </CustomVisualElement>
+    <FiveStartVE half-stars="11" max-stars="6" style="height: 90px; flex-direction: row; width: 600px;">
+        <Bindings>
+            <engine:DataBinding property="MaxStars" data-source-path="MaxStars" data-source="project://database/Assets/CustomCtrls/Resources/DataBinding.asset?fileID=11400000&amp;guid=7c96640dc302bff40935308612ad05f1&amp;type=2#DataBinding" binding-mode="ToTarget" />
+            <engine:DataBinding property="HalfStars" data-source-path="HalfStars" data-source="project://database/Assets/CustomCtrls/Resources/DataBinding.asset?fileID=11400000&amp;guid=7c96640dc302bff40935308612ad05f1&amp;type=2#DataBinding" binding-mode="ToTarget" />
+        </Bindings>
+    </FiveStartVE>
+    <GamepadButtonVE _action-reference="project://database/Assets/CustomCtrls/Settings/InputSystem_Actions.inputactions?fileID=1781555164194001046&amp;guid=544c3b625b5d8054cbb136bbfd1b99a2&amp;type=3#Player/Interact" />
+    <DrawVE happiness="0" style="height: 93px; width: 236px;">
+        <Bindings>
+            <engine:DataBinding property="Happiness" data-source-path="Happiness" data-source="project://database/Assets/CustomCtrls/Resources/DataBinding.asset?fileID=11400000&amp;guid=7c96640dc302bff40935308612ad05f1&amp;type=2#DataBinding" binding-mode="ToTarget" />
+        </Bindings>
+    </DrawVE>
 </engine:UXML>
